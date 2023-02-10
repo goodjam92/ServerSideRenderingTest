@@ -1,0 +1,14 @@
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  height: 24rem;
+}
+
+.image {
+  width: 24rem;
+  height: 24rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
