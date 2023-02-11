@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import styles from ".//imageBox.module.css";
-import testimg from "public/test.jpeg";
+import styles from "./imageBox.module.css";
 
 interface ImageBoxProps {
   src: string;
@@ -9,7 +9,7 @@ interface ImageBoxProps {
 export default function ImageBox({ src }: ImageBoxProps) {
   return (
     <div className={styles.imageBox}>
-      <Image src={src} alt="photo" className={styles.image} loading="lazy" />
+      <img src={src} alt="photo" className={styles.image} />
     </div>
   );
 }
