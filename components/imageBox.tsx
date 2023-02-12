@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "./imageBox.module.css";
 
 interface ImageBoxProps {
-  src: string;
+  src: StaticImageData;
 }
 
 export default function ImageBox({ src }: ImageBoxProps) {

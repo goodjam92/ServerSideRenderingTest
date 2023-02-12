@@ -1,5 +1,5 @@
 import "./globals.css";
-import StyledJsxRegistry from "./registry";
+import StyledJsxRegistry from "../lib/registry";
 
 export default function RootLayout({
   children,
