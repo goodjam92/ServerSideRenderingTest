@@ -1,11 +1,8 @@
-import Link from "next/link";
 import styles from "./imgScreen.module.css";
 import { GetServerSideProps, InferGetServerSidePropsType } from "next/types";
 import { doc, getDoc } from "firebase/firestore";
 import { dbService } from "@/lib/firebase/firebaseConfig";
 import ImageBox from "@/components/imageBox";
-import testimg from "public/test.jpeg";
-import { useEffect, useState } from "react";
 
 const ImageScreen = ({
   images,
