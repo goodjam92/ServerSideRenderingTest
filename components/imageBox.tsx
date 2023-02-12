@@ -9,7 +9,13 @@ interface ImageBoxProps {
 export default function ImageBox({ src }: ImageBoxProps) {
   return (
     <div className={styles.imageBox}>
-      <img src={src} alt="photo" className={styles.image} />
+      <Image
+        src={src}
+        alt="photo"
+        className={styles.image}
+        width={240}
+        height={240}
+      />
     </div>
   );
 }
