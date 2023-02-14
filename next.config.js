@@ -8,9 +8,9 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "firebasestorage.googleapis.com",
+        hostname: "upload.wikimedia.org/wikipedia/commons/",
         port: "",
-        pathname: "/v0/b/serversiderendering-e21f6.appspot.com/o/*",
+        pathname: "/*",
       },
     ],
   },
